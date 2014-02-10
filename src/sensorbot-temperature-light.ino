@@ -10,9 +10,9 @@
 
 #include <Bridge.h>
 #include <YunClient.h>
-#include "PubSubClient.h"
-#include "Thermosensor.h"
-#include "Utils.h"
+#include "include/PubSubClient.h"
+#include "include/Thermosensor.h"
+#include "include/Utils.h"
 
 // Function prototypes.
 void callback(char* topic, byte* payload, unsigned int length);

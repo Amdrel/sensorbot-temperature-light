@@ -1,6 +1,6 @@
 #include <Arduino.h>
-#include "Thermosensor.h"
-#include "Utils.h"
+#include "include/Thermosensor.h"
+#include "include/Utils.h"
 
 Thermosensor::Thermosensor(float reference_voltage, const unsigned char pin) {
 	Thermosensor::reference_voltage = reference_voltage;
